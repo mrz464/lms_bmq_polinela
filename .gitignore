@@ -1,0 +1,14 @@
+# Abaikan file environment yang berisi password
+.env
+
+# Abaikan folder volume database dan cache (jika ada)
+data/
+db/
+mysql_data/
+redis_data/
+sites/
+logs/
+
+# Abaikan file sistem operasi
+.DS_Store
+Thumbs.db
